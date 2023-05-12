@@ -1,4 +1,4 @@
-import mysql from "mysql2/promise";
+//import mysql from "mysql2/promise";
 
 export async function GET() {
   /*const con = await mysql.createConnection({
@@ -9,9 +9,9 @@ export async function GET() {
     password: process.env.DB_PASSWORD
   });*/
 
-  try {
+  /*try {
     /*const [results] = await con.query("SELECT * from games");
-    con.end();*/
+    con.end();
     const results = {test: "test"}
 
     return new Response (JSON.stringify(results), { 
@@ -21,7 +21,7 @@ export async function GET() {
     return new Response (JSON.stringify({ error: error.message }), { 
       status: 500 
     })
-  }
+  }*/
 
   return new Response ("test", { 
     status: 200 
