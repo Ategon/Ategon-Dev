@@ -1,4 +1,4 @@
-import mysql from "mysql2";
+/*import mysql from "mysql2";
 
 const con = mysql.createConnection({
   host: process.env.DB_HOST,
@@ -16,4 +16,4 @@ export function query(sql: string, args: any = null) {
       resolve(rows);
     });
   });
-}
+}*/
